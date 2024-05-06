@@ -24,7 +24,6 @@
 				"astro-build.astro-vscode",
 				"dbaeumer.vscode-eslint",
 				"ms-azuretools.vscode-docker",
-				"ahmadawais.emoji-log-vscode",
 				"unifiedjs.vscode-mdx",
 				"YoavBls.pretty-ts-errors",
 				"esbenp.prettier-vscode",
@@ -36,13 +35,16 @@
 				"github.vscode-github-actions"
 			],
 			"settings": {
-				"eslint.validate": [
-					"javascript",
-					"javascriptreact",
-					"astro",
-					"typescript",
-					"typescriptreact"
-				]
+				"eslint": {
+					"validate": [
+						"javascript",
+						"javascriptreact",
+						"astro",
+						"typescript",
+						"typescriptreact"
+					],
+					"experimental.useFlatConfig": true
+				}
 			}
 		}
 	}
