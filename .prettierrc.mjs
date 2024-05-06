@@ -11,4 +11,5 @@ export default {
     },
   ],
   tabWidth: 2,
+  proseWrap: "always",
 };
