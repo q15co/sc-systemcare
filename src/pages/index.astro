@@ -16,11 +16,14 @@ const ratgeberCollection = await getCollection("ratgeber");
     <h1>Astro</h1>
     <ul>
       {
-        ratgeberCollection.map((item) => (
-          <li>
-            <a href={item.slug}>{item.data.title}</a>
-          </li>
-        ))
+        ratgeberCollection.map(
+          (item) =>
+            (
+              <li>
+                <a href={item.slug}>{item.data.title}</a>
+              </li>
+            ) as HTMLLIElement
+        )
       }
     </ul>
   </body>

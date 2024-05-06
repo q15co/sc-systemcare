@@ -1,5 +1,6 @@
 ---
 import type { GetStaticPaths } from "astro";
+import type { CollectionEntry } from "astro:content";
 import { getCollection } from "astro:content";
 
 export const getStaticPaths = (async () => {
@@ -12,6 +13,10 @@ export const getStaticPaths = (async () => {
     })),
   ];
 }) satisfies GetStaticPaths;
+
+export interface Props {
+  page: CollectionEntry<"ratgeber">;
+}
 
 const { page } = Astro.props;
 
