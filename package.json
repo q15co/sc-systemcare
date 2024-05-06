@@ -24,5 +24,9 @@
     "eslint-plugin-jsx-a11y": "^6.8.0",
     "playwright": "^1.43.1",
     "typescript-eslint": "^7.8.0"
+  },
+  "engines": {
+    "node": ">=20.12",
+    "pnpm": ">=8.15"
   }
 }

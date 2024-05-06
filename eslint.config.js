@@ -16,5 +16,11 @@ export default tseslint.config(
       },
     },
   },
-  { ignores: [".astro/**/*", "**/env.d.ts"] }
+  { ignores: [".astro/**/*", "**/env.d.ts"] },
+  {
+    files: ["**/*.astro"],
+    rules: {
+      "@typescript-eslint/no-unsafe-return": "off",
+    },
+  }
 );
