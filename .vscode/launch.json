@@ -5,14 +5,14 @@
       "command": "./node_modules/.bin/astro dev",
       "name": "Development server",
       "request": "launch",
-      "type": "node-terminal",
+      "type": "node-terminal"
     },
     {
       "name": "Launch Chrome",
       "request": "launch",
       "type": "chrome",
       "url": "http://localhost:4321",
-      "webRoot": "${workspaceFolder}",
-    },
-  ],
+      "webRoot": "${workspaceFolder}"
+    }
+  ]
 }

@@ -1,5 +1,4 @@
 {
-  "cSpell.words": [
-    "ratgeber"
-  ]
+  "cSpell.words": ["ratgeber"],
+  "typescript.tsdk": "node_modules/typescript/lib"
 }
