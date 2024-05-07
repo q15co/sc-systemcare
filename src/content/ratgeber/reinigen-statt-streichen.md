@@ -1,5 +1,6 @@
 ---
 title: Reinigen statt streichen​
+published: true
 ---
 
 ## Gebäude sind befallen von Algen und Pilzen
