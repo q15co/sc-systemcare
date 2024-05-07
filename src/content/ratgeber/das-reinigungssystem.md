@@ -1,5 +1,6 @@
 ---
 title: Das Reinigungssystem
+published: true
 ---
 
 Systemlieferant Um Fassaden nachhaltig und langfristig porentief zu reinigen,
